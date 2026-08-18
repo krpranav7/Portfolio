@@ -72,7 +72,7 @@ export default function Hero(){
             </div>
 
             <div className="max-w-6xl mx-auto w-full mt-6 pt-6 border-t border-gray-800">
-                <div className='flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between'>
+                <div className='flex flex-row items-center justify-between gap-4 sm:flex-row sm:items-center sm:justify-between'>
                     <p className="font-mono text-base text-teal-400">$ cat about.md</p>
                     <a href="https://1drv.ms/w/c/541db1cb4ffdf7fa/IQBdOhydx5T0TKYWtc2Y1GfUAWVNRqb089TwXPmgUuAPM4s?e=JHj1MR" target='_blank' rel='noopener noreferrer' className='w-fit shrink-0 rounded-md border border-teal-800 bg-teal-950 px-4 py-2 text-sm font-medium text-teal-300 transition hover:border-teal-600 hover:bg-teal-900 hover:text-teal-200 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-teal-400'>View Resume</a>
                     
