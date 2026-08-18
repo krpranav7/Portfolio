@@ -49,7 +49,7 @@ export default function Hero(){
                 </div>
 
                 <div className='space-y-4'>
-                    <p className='font-mono text-base text-teal-400 mb-1'>$ ls skills</p>
+                    <p className='font-mono text-base text-teal-400 mb-3'>$ ls skills</p>
                     <h2 className="text-3xl font-bold">Skills</h2>
                     {categories.map((cat) => (
                         <div key={cat.label}>
