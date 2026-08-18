@@ -4,7 +4,7 @@ import vscodeIcon from '../assets/vscode-2.png'
 import { TbApi } from 'react-icons/tb'
 
 import {
-  SiCplusplus, SiPython, SiJavascript, SiTypescript, SiHtml5, SiCss,
+  SiCplusplus, SiPython, SiJavascript, SiTypescript, SiHtml5, SiCss, SiTailwindcss, 
   SiReact, SiNodedotjs, SiExpress, SiMongodb, SiGit, SiGithub,
   SiPostman,
 } from 'react-icons/si'
@@ -16,6 +16,7 @@ const iconMap: Record<string, IconType> = { // a TS meaning "an object where eve
   "TypeScript": SiTypescript,
   "HTML5": SiHtml5,
   "CSS3": SiCss,
+  "Tailwind CSS": SiTailwindcss,
   "React.js": SiReact,
   "Node.js": SiNodedotjs,
   "Express.js": SiExpress,
@@ -27,9 +28,10 @@ const iconMap: Record<string, IconType> = { // a TS meaning "an object where eve
 }
 
 const categories = [
-    {label: "Languages", items: skills.languages},
-    {label: "Web technologies", items: skills.webTech},
-    {label: "Tools", items: skills.tools},
+  { label: "Languages", items: skills.languages },
+  { label: "Frontend", items: skills.frontend },
+  { label: "Backend & Database", items: skills.backend },
+  { label: "Tools", items: skills.tools },
 ]
 
 export default function Hero(){
