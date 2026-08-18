@@ -1,6 +1,7 @@
 import { skills } from '../data/skills'
 import type { IconType } from 'react-icons'
 import vscodeIcon from '../assets/vscode-2.png'
+import { TbApi } from 'react-icons/tb'
 
 import {
   SiCplusplus, SiPython, SiJavascript, SiTypescript, SiHtml5, SiCss,
@@ -22,6 +23,7 @@ const iconMap: Record<string, IconType> = { // a TS meaning "an object where eve
   "Git": SiGit,
   "GitHub": SiGithub,
   "Postman": SiPostman,
+  "REST APIs": TbApi
 }
 
 const categories = [
