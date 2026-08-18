@@ -3,7 +3,7 @@ import type { IconType } from 'react-icons'
 import vscodeIcon from '../assets/vscode-2.png'
 
 import {
-  SiCplusplus, SiPython, SiJavascript, SiHtml5, SiCss,
+  SiCplusplus, SiPython, SiJavascript, SiTypescript, SiHtml5, SiCss,
   SiReact, SiNodedotjs, SiExpress, SiMongodb, SiGit, SiGithub,
   SiPostman,
 } from 'react-icons/si'
@@ -12,6 +12,7 @@ const iconMap: Record<string, IconType> = { // a TS meaning "an object where eve
   "C++": SiCplusplus,
   "Python": SiPython,
   "JavaScript": SiJavascript,
+  "TypeScript": SiTypescript,
   "HTML5": SiHtml5,
   "CSS3": SiCss,
   "React.js": SiReact,
